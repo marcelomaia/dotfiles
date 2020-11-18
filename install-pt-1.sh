@@ -14,6 +14,8 @@ apt install \
     ctags \
     figlet \
     fortune \
+    fortunes-br \
+    fzf \
     git \
     neovim \
     python3-pip \
