@@ -14,7 +14,7 @@ apt install \
     ctags \
     figlet \
     fortune \
-    git
+    git \
     neovim \
     python3-pip \
     ripgrep \
@@ -29,10 +29,12 @@ dpkg -i packages-microsoft-prod.deb
 apt install -y apt-transport-https
 apt update
 apt install -y dotnet-sdk-5.0
+apt install -y dotnet-sdk-3.1
 
 echo "install python dependencies"
 pip3 install \
     docker-compose \
     pynvim \
-    vim-vint
+    vim-vint \
     virtualenvwrapper \
+    pre-commit
