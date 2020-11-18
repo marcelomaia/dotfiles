@@ -30,4 +30,9 @@ apt install -y apt-transport-https
 apt update
 apt install -y dotnet-sdk-5.0
 
-
+echo "install python dependencies"
+pip3 install \
+    docker-compose \
+    pynvim \
+    vim-vint
+    virtualenvwrapper \
