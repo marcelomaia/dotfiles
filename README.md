@@ -1,2 +1,6 @@
 # dotfiles
-my personal config
+
+## Installation
+
+- `./install-pt-1.sh`
+

@@ -1,0 +1,6 @@
+[submodule "NeovimDevConfig"]
+	path = NeovimDevConfig
+	url = https://github.com/marcelomaia/NeovimDevConfig
+[submodule "ZSHConfig"]
+	path = ZSHConfig
+	url = https://github.com/marcelomaia/ZSHConfig
