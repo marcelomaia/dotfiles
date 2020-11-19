@@ -18,10 +18,13 @@ apt install \
     fzf \
     git \
     neovim \
+    python3-dev \
     python3-pip \
     ripgrep \
+    ruby-dev \
     silversearcher-ag \
     taskwarrior \
+    tmux \
     zsh
 
 echo "install dotnet"
@@ -40,3 +43,10 @@ pip3 install \
     vim-vint \
     virtualenvwrapper \
     pre-commit
+
+echo "ruby dependencies"
+gem install tmuxinator
+
+
+echo "Installing tmuxnator"
+wget https://raw.githubusercontent.com/tmuxinator/tmuxinator/master/completion/tmuxinator.zsh -O /usr/local/share/zsh/site-functions/_tmuxinator
