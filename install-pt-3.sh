@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "copying config files"
 cp ./zshrc ~/.zshrc
