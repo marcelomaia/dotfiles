@@ -8,3 +8,6 @@ rm -rf ~/.oh-my-zsh/
 
 echo "removing p10k"
 rm ~/.p10k.zsh
+
+echo "removing nvm"
+rm -rf ~/.nvm

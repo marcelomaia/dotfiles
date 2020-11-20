@@ -160,6 +160,8 @@ export PATH="$(yarn global bin):$PATH"
 # aliases
 alias v=vim
 alias tx=tmuxinator
+# store password for git
+alias gs=git config credential.helper store
 
 export C_OFF='\033[0m'
 export C_BLACK='\033[0;30m'
