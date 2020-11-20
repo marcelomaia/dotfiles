@@ -42,7 +42,8 @@ pip3 install \
     pynvim \
     vim-vint \
     virtualenvwrapper \
-    pre-commit
+    pre-commit \
+    emoji-fzf
 
 echo "ruby dependencies"
 gem install tmuxinator

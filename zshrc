@@ -160,3 +160,22 @@ export PATH="$(yarn global bin):$PATH"
 # aliases
 alias v=vim
 alias tx=tmuxinator
+
+export C_OFF='\033[0m'
+export C_BLACK='\033[0;30m'
+export C_RED='\033[0;31m'
+export C_GREEN='\033[0;32m'
+export C_ORANGE='\033[0;33m'
+export C_BLUE='\033[0;34m'
+export C_PURPLE='\033[0;35m'
+export C_CYAN='\033[0;36m'
+export C_LIGHT_GRAY='\033[0;37m'
+export C_DARK_GRAY='\033[1;30m'
+export C_LIGHT_RED='\033[1;31m'
+export C_LIGHT_GREEN='\033[1;32m'
+export C_YELLOW='\033[1;33m'
+export C_LIGHT_BLUE='\033[1;34m'
+export C_LIGHT_PURPLE='\033[1;35m'
+export C_LIGHT_CYAN='\033[1;36m'
+export C_WHITE='\033[1;37m'
+
