@@ -10,19 +10,27 @@ apt update
 
 echo "install packages..."
 apt install \
+    apt-transport-https \
+    ca-certificates \
     cowsay \
+    libwxgtk3.0-gtk3-dev \
     ctags \
+    curl \
     figlet \
     fortune \
     fortunes-br \
     fzf \
     git \
+    gnupg-agent \
+    libncurses5 \
+    libtinfo5 \
     neovim \
     python3-dev \
     python3-pip \
     ripgrep \
     ruby-dev \
     silversearcher-ag \
+    software-properties-common \
     taskwarrior \
     tmux \
     zsh
@@ -49,5 +57,14 @@ echo "ruby dependencies"
 gem install tmuxinator
 
 
-echo "Installing tmuxnator"
+echo "Installing tmuxinator"
 wget https://raw.githubusercontent.com/tmuxinator/tmuxinator/master/completion/tmuxinator.zsh -O /usr/local/share/zsh/site-functions/_tmuxinator
+
+
+echo "Installing elixir-lang"
+wget https://packages.erlang-solutions.com/erlang/debian/pool/esl-erlang_23.1-1~ubuntu~bionic_amd64.deb && sudo dpkg -i ./esl-erlang_23.1-1~ubuntu~bionic_amd64.deb
+
+apt-get update
+apt-get install esl-erlang
+apt-get install elixir
+apt-get install erlang-dev erlang-dialyzer erlang-base-hipe

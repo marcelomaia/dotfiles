@@ -14,4 +14,7 @@ echo "installing alias-plugin"
 echo "installing tmux plugin manager"
 [ ! -d "$HOME/.tmux/plugins/tpm" ] && mkdir -p $HOME/.tmux/plugins/tpm && git clone https://github.com/tmux-plugins/tpm $HOME/.tmux/plugins/tpm
 
+echo "installing zsh-autosuggestions"
+[ ! -d "$HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions" ] && git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+
 zsh

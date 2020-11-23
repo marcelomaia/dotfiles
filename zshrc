@@ -52,7 +52,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -94,6 +94,7 @@ plugins=(
     taskwarrior
     virtualenvwrapper
     yarn
+    zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -181,3 +182,5 @@ export C_LIGHT_PURPLE='\033[1;35m'
 export C_LIGHT_CYAN='\033[1;36m'
 export C_WHITE='\033[1;37m'
 
+# Enable Vim mode in ZSH
+bindkey -v
