@@ -107,11 +107,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-export EDITOR='vim'
+export EDITOR='nvim'
 # if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
+#   export EDITOR='nvim'
 # else
-#   export EDITOR='mvim'
+#   export EDITOR='mnvim'
 # fi
 
 # Compilation flags
@@ -159,7 +159,7 @@ fi
 export PATH="$(yarn global bin):$PATH"
 
 # aliases
-alias v=vim
+alias v=nvim
 alias tx=tmuxinator
 # store password for git
 alias gs=git config credential.helper store
