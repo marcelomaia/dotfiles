@@ -87,6 +87,8 @@ plugins=(
     git
     git-flow
     gitignore
+    kubectl
+    minikube
     npm
     nvm
     pip
@@ -161,8 +163,9 @@ export PATH="$(yarn global bin):$PATH"
 # aliases
 alias v=nvim
 alias tx=tmuxinator
+alias vim=nvim
 # store password for git
-alias gs=git config credential.helper store
+alias gs="git config credential.helper store"
 
 export C_OFF='\033[0m'
 export C_BLACK='\033[0;30m'
@@ -184,3 +187,6 @@ export C_WHITE='\033[1;37m'
 
 # Enable Vim mode in ZSH
 bindkey -v
+
+# pyenv
+export PATH="/home/marcelo/.pyenv/bin:$PATH"
